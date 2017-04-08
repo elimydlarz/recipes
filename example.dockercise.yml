@@ -1,0 +1,7 @@
+a:
+  img: alpine
+  run: echo "Ran A"
+b:
+  after: a
+  img: alpine
+  run: echo "Ran B"
