@@ -5,3 +5,7 @@ b:
   after: a
   img: alpine
   run: echo "Ran B"
+push:
+  after: a
+  img: alpine
+  run: echo "Ran push"
